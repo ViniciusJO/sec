@@ -15,4 +15,4 @@ If I understand anything about monads it is that it's composition is tricky. So 
 4. `RepositoryReturn`: Encapsulates an array, an error or none. `Success<Array>`, `Failure` or `None`;
 5. `AsyncRepositoryReturn`: Encapsulates a `Promise` of an array, an error or none (`Promise<RepositoryReturn>`).
 
-> # Works on `node`, `deno` and `bun`
+> ### Works on [`node`](https://nodejs.org), [`deno`](https://deno.com/) and [`bun`](https://bun.com/)
