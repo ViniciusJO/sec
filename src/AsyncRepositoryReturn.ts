@@ -1,5 +1,4 @@
 /**
- *  Encapsulates a promise of an array, an error or none.
  *  Encodes the promise of the absense of value, an error ocurency or an array of type T.
  *
  *  AsyncRepositoryReturn<T> ≈ Promise<RepositoryReturn<T>> ≈ Promise<Either<Error, Maybe<Array<T>>>>

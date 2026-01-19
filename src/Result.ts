@@ -1,5 +1,5 @@
 /**
- *  Encapsulates a success value or an failure (error).
+ *  Encapsulates a success value or a failure (error).
  */
 
 // deno-lint-ignore-file no-explicit-any

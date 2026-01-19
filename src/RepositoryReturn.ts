@@ -1,5 +1,4 @@
 /**
- *  Encapsulates an array, an error or none.
  *  Encodes the absense of value, an error ocurency or an array of type T.
  *
  *  RepositoryReturn<T> ≈ Either<Error, Maybe<Array<T>>>

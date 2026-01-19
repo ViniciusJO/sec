@@ -1,4 +1,4 @@
-import { ARR } from "./index.ts";
+import { ARR } from "./src/index.ts";
 
 async function test(): Promise<void> {
   const a = ARR.success([ 433, 900, 723 ]);
