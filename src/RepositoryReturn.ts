@@ -156,6 +156,7 @@ abstract class BaseRepositoryReturn<S> {
     );
   }
 
+  // TODO: FIX
   flatten(): RepositoryReturn<S> extends RepositoryReturn<infer V>
     ? Error extends RepositoryReturn<infer X>
     ? V extends RepositoryReturn<infer Z>
@@ -180,6 +181,7 @@ abstract class BaseRepositoryReturn<S> {
     ) as any;
   }
 
+  // TODO: FIX
   promiseFlaten(): Promise<RepositoryReturn<Awaited<S>>> {
     return !(this.value instanceof Promise)
       ? Promise.resolve(this as RepositoryReturn<Awaited<S>>)
